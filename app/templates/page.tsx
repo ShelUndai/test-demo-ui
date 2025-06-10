@@ -503,20 +503,6 @@ export default function TemplatesPage() {
     <div className="flex min-h-screen w-full flex-col bg-muted/40">
       <header className="sticky top-0 z-10 flex h-16 items-center gap-4 border-b bg-background px-4 sm:px-6">
         <h1 className="text-lg font-semibold">Firewall Drift Dashboard</h1>
-        <Tabs defaultValue="templates" className="flex-1">
-          <TabsList className="ml-auto">
-            <TabsTrigger value="jobs" asChild>
-              <Link href="/">Jobs</Link>
-            </TabsTrigger>
-            <TabsTrigger value="templates">Firewall Rule Templates</TabsTrigger>
-            <TabsTrigger value="inventories" asChild>
-              <Link href="/inventories">Inventories</Link>
-            </TabsTrigger>
-            <TabsTrigger value="projects" asChild>
-              <Link href="/projects">Projects</Link>
-            </TabsTrigger>
-          </TabsList>
-        </Tabs>
       </header>
 
       <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-8">
